@@ -30,7 +30,7 @@ with open('liste.csv') as csv_file:
     line_count = 0
     for row in reader:
 
-        if line_count > 7:
+        if line_count > 12:
 
             isHeureux = False
             if row[0] == 'Oui':
@@ -114,14 +114,16 @@ with open('liste.csv') as csv_file:
             desc = { u'fr': description }
             item.editDescriptions(desc, summary=u'Set description')
 
-            claim = pywikibot.Claim(repo, u'P281')
-            claim.setTarget(postalcode)
-            item.addClaim(claim, summary=u'Postal Code')
+            if postalcode != '':
+                claim = pywikibot.Claim(repo, u'P281')
+                claim.setTarget(postalcode)
+                item.addClaim(claim, summary=u'Postal Code')
 
-            claim = pywikibot.Claim(repo, u'P6375')
-            addr = pywikibot.WbMonolingualText(language='fr', text=address)
-            claim.setTarget(addr)
-            item.addClaim(claim, summary=u'Address')
+            if adress != '':
+                claim = pywikibot.Claim(repo, u'P6375')
+                addr = pywikibot.WbMonolingualText(language='fr', text=address)
+                claim.setTarget(addr)
+                item.addClaim(claim, summary=u'Address')
 
         line_count += 1
         print(line_count)
