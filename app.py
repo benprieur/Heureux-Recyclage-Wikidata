@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*
 
+import time
 import pywikibot
 from pywikibot import pagegenerators
 site = pywikibot.Site("wikidata", "wikidata")
@@ -25,12 +26,13 @@ def create_wd_item(site, label_dict):
     new_item.editLabels(labels=label_dict, summary=u"Create new element")
     return new_item.getID()
 
+
 with open('liste.csv') as csv_file:
     reader = csv.reader(csv_file, delimiter=';')
     line_count = 0
     for row in reader:
 
-        if line_count > 13:
+        if line_count > 26:
 
             isHeureux = False
             if row[0] == 'Oui':
@@ -43,6 +45,9 @@ with open('liste.csv') as csv_file:
             countrysource = row[5]
             latitude = row[6]
             longitude = row[7]
+            print(nom + " - " + citysource + " - " + countrysource)
+
+            time.sleep(30)
 
             # create WD
             some_labels = {"fr": nom}
@@ -85,6 +90,8 @@ with open('liste.csv') as csv_file:
             claim.setTarget(target)
             item.addClaim(claim, summary=u'Country')
 
+            time.sleep(10)
+
             #P131, location
             gen = pagegenerators.WikibaseSearchItemPageGenerator(citysource, language='fr', total='1', site=site)
 
@@ -104,15 +111,17 @@ with open('liste.csv') as csv_file:
             claim.setTarget(target)
             item.addClaim(claim, summary=u'Location')
 
+            time.sleep(10)
+
+            description = 'atelier de réparation de cycles à ' + cityprint + ', ' + countryprint
+            desc = { u'fr': description }
+            item.editDescriptions(desc, summary=u'Set description')
+
             if isHeureux == True:
                     claim = pywikibot.Claim(repo, u'P463')
                     target = pywikibot.ItemPage(repo, 'Q16651108') # Heureux Cyclage
                     claim.setTarget(target)
                     item.addClaim(claim, summary=u'Heureux Cyclage')
-
-            description = 'atelier de réparation de cycles à ' + cityprint + ', ' + countryprint
-            desc = { u'fr': description }
-            item.editDescriptions(desc, summary=u'Set description')
 
             if postalcode != '':
                 claim = pywikibot.Claim(repo, u'P281')
@@ -124,6 +133,8 @@ with open('liste.csv') as csv_file:
                 addr = pywikibot.WbMonolingualText(language='fr', text=address)
                 claim.setTarget(addr)
                 item.addClaim(claim, summary=u'Address')
+
+            time.sleep(100)
 
         line_count += 1
         print(line_count)
