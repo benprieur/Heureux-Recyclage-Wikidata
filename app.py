@@ -30,7 +30,7 @@ with open('liste.csv') as csv_file:
     line_count = 0
     for row in reader:
 
-        if line_count > 12:
+        if line_count > 13:
 
             isHeureux = False
             if row[0] == 'Oui':
@@ -119,7 +119,7 @@ with open('liste.csv') as csv_file:
                 claim.setTarget(postalcode)
                 item.addClaim(claim, summary=u'Postal Code')
 
-            if adress != '':
+            if address != '':
                 claim = pywikibot.Claim(repo, u'P6375')
                 addr = pywikibot.WbMonolingualText(language='fr', text=address)
                 claim.setTarget(addr)
