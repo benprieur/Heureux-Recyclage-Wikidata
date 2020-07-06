@@ -128,9 +128,10 @@ with open('liste.csv') as csv_file:
                 claim.setTarget(addr)
                 item.addClaim(claim, summary=u'Address')
 
-
+            if line_count % 5 == 0:
+                print("# Pause 240 seconds")
+                time.sleep(240)
+                
         line_count += 1
         print(line_count)
-        if line_count % 5 == 0:
-            print("# Pause 240 seconds")
-            time.sleep(240)
+
