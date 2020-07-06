@@ -32,7 +32,7 @@ with open('liste.csv') as csv_file:
     line_count = 0
     for row in reader:
 
-        if line_count > 26:
+        if line_count > 34:
 
             isHeureux = False
             if row[0] == 'Oui':
@@ -47,7 +47,34 @@ with open('liste.csv') as csv_file:
             longitude = row[7]
             print(nom + " - " + citysource + " - " + countrysource)
 
-            time.sleep(30)
+            #P17, country
+            gen = pagegenerators.WikibaseSearchItemPageGenerator(countrysource, language='fr', total='1', site=site)
+
+            country = None
+            countryprint = ''
+
+            for q in gen:
+
+                print(q.title())
+                country = q.title()
+                it = pywikibot.ItemPage(repo, q.title())
+                item_dict = it.get()
+                countryprint = item_dict['labels']['fr']
+                print(countryprint)
+
+            #P131, location
+            gen = pagegenerators.WikibaseSearchItemPageGenerator(citysource, language='fr', total='1', site=site)
+
+            city = None
+            cityprint = ''
+
+            for q in gen:
+                print(q.title())
+                city = q.title()
+                it = pywikibot.ItemPage(repo, q.title())
+                item_dict = it.get()
+                cityprint = item_dict['labels']['fr']
+                print(cityprint)
 
             # create WD
             some_labels = {"fr": nom}
@@ -70,48 +97,15 @@ with open('liste.csv') as csv_file:
             coordinateclaim.setTarget(coordinate)
             item.addClaim(coordinateclaim, summary=u'Coordinates')
 
-            #P17, country
-            gen = pagegenerators.WikibaseSearchItemPageGenerator(countrysource, language='fr', total='1', site=site)
-
-            country = None
-            countryprint = ''
-
-            for q in gen:
-
-                print(q.title())
-                country = q.title()
-                it = pywikibot.ItemPage(repo, q.title())
-                item_dict = it.get()
-                countryprint = item_dict['labels']['fr']
-                print(countryprint)
-
             claim = pywikibot.Claim(repo, u'P17')
             target = pywikibot.ItemPage(repo, country)
             claim.setTarget(target)
             item.addClaim(claim, summary=u'Country')
 
-            time.sleep(10)
-
-            #P131, location
-            gen = pagegenerators.WikibaseSearchItemPageGenerator(citysource, language='fr', total='1', site=site)
-
-            city = None
-            cityprint = ''
-
-            for q in gen:
-                print(q.title())
-                city = q.title()
-                it = pywikibot.ItemPage(repo, q.title())
-                item_dict = it.get()
-                cityprint = item_dict['labels']['fr']
-                print(cityprint)
-
             claim = pywikibot.Claim(repo, u'P131')
             target = pywikibot.ItemPage(repo, city)
             claim.setTarget(target)
             item.addClaim(claim, summary=u'Location')
-
-            time.sleep(10)
 
             description = 'atelier de réparation de cycles à ' + cityprint + ', ' + countryprint
             desc = { u'fr': description }
@@ -134,7 +128,9 @@ with open('liste.csv') as csv_file:
                 claim.setTarget(addr)
                 item.addClaim(claim, summary=u'Address')
 
-            time.sleep(100)
 
         line_count += 1
         print(line_count)
+        if line_count % 5 == 0:
+            print("# Pause 240 seconds")
+            time.sleep(240)
