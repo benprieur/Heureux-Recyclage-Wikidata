@@ -131,7 +131,7 @@ with open('liste.csv') as csv_file:
             if line_count % 5 == 0:
                 print("# Pause 240 seconds")
                 time.sleep(240)
-                
+
         line_count += 1
         print(line_count)
 
