@@ -37,7 +37,7 @@ with open('liste.csv') as csv_file:
 
     for row in reader:
 
-        if line_count > 104:
+        if line_count > 105:
 
             isHeureux = False
             if row[0] == 'Oui':
