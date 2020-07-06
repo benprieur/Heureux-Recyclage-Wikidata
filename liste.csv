@@ -1,4 +1,4 @@
-Heureux Cyclage;Atelier;Adresse;Code postal;Ville;Pays;Latitude;Longitude
+;Heureux Cyclage;Atelier;Adresse;Code postal;Ville;Pays;Latitude;Longitude
 Oui;uN p'Tit véLo dAnS La Tête;921 rue des résidences;38400; ST MARTIN D’HÈRES;France;45.1891553;5.7689502
 Oui;uN p'Tit véLo dAnS La Tête;5 rue de Londres;38000;GRENOBLE;France;45.1841391;5.7152629
 Oui;Roulons à Vélo;impasse Marcel Reynier;84000;AVIGNON;France;43.93713878281259;4.804091155529023
@@ -49,7 +49,7 @@ Oui;ADAVA Pays d’Aix;10, rue Édouard Herriot;13090;AIX-EN-PROVENCE;France;43.
 Oui;Mobil'Idées;10 Rue Roumanille;5000;GAP;France;44.55938287799067;6.076238751411438
 Oui;Place au vélo;1 rue d'Auvours;44000;NANTES;France;47.2216436;-1.5639379
 Oui;Vélocampus;3 chemin Censive du Tertre;44300;NANTES;France;47.24323076353168;-1.5549302101135252
-Oui;Centre Vélo;140 rue Olof Palme ;85000;ROCHE-SUR-YON (LA);France;46.6553488;-1.418873
+Oui;Centre Vélo;140 rue Olof Palme;85000;ROCHE-SUR-YON (LA);France;46.6553488;-1.418873
 Oui;Atelier ABC vélo;Impasse Gambetta;60180;NOGENT-SUR-OISE;France;49.26770653897145;2.472717761993408
 Oui;Pont-Sainte-Maxence à vélo;8 place des tilleuls;60700;PONT-SAINTE-MAXENCE;France;49.2955914;2.5987181
 Oui;atelier vélo de Senlis;gymnase du complexe sportif Yves Carlier;60300;SENLIS;France;49.20929899847933;2.5779247283935547
@@ -59,11 +59,11 @@ Oui;Bretz'Selle;10 rue des Bouchers;67000;STRASBOURG;France;48.5786;7.75106
 Oui;VéloBouloDodo;30, rue Étienne Dolet;63000;CLERMONT-FERRAND;France;45.76432340535582;3.08616042137146
 Oui;L'atelier vélo autogéré du chat perché;29 rue Salomon Reinach;69007;LYON;France;45.75145534269404;4.841489195823669
 Oui;Kazacycle;19, avenue Duchesne;26100;ROMANS-SUR-ISÈRE;France;45.04686716930805;5.043765306472778
-Oui;Atelier Le Dérailleur;38 rue d'Arcole ;42000;SAINT-ÉTIENNE ;France;45.44007935983789;4.381310641765595
+Oui;Atelier Le Dérailleur;38 rue d'Arcole;42000;SAINT-ÉTIENNE;France;45.44007935983789;4.381310641765595
 Oui;Maison du Vélo;1 rue Michel Servet;26000;VALENCE;France;44.926447;4.8915797
 Oui;La rustine;5 rue du Havre;21000;DIJON;France;47.33057364597985;5.037097334861755
 Oui;Maison du Vélo;54 quai Hamelin;14000;CAEN;France;49.17921720409475;-0.3479254245758056
-Oui;Maison d'la Bécane;713 boulevard Grande Delle ;14200;HÉROUVILLE-SAINT-CLAIR;France;49.207009823836714;-0.33640265464782715
+Oui;Maison d'la Bécane;713 boulevard Grande Delle;14200;HÉROUVILLE-SAINT-CLAIR;France;49.207009823836714;-0.33640265464782715
 Oui;Velisol’ délocalisé - centre socio-culturel du Chemin Vert;17 rue Pierre Corneille;1400;CAEN;France;49.193063201511386;-0.3907227516174317
 Oui;Velisol’ délocalisé - centre socio-culturel Pierre-Heuzé;49 boulevard du Général Vanier;14000;CAEN;France;49.19736802961755;-0.34936308860778814
 Oui;Atelier d'autoréparation La Bricolade;16 Impasse Robert Nadaud;37000;TOURS;France;47.38076056048763;0.7093209028244019
@@ -154,11 +154,11 @@ Oui;Le repaire des heureux cycleurs;ZA des Rochettes;88310;CORNIMONT;France;47.9
 Oui;Maison du vélo de Mérignac;215 Avenue de la Marne;33700;MÉRIGNAC;France;44.83313911055433;-0.640154778957367
 Oui;Le Rheu à Vélo;Impasse de Gerhoui – ZA du Chêne Vert;35650;LE RHEU;France;48.093305;-1.787253
 Oui;Cycl’Aux - la Recyclette;13 bis rue Jean-Jacques Collenot;21140;SEMUR-EN-AUXOIS;France;47.4902;4.33653
-Oui;Clinique du cycle;rue Lucie AUBRAC (prolongement) ;90400 ;DANJOUTIN;France;47.61204003603112;6.862670481204987
+Oui;Clinique du cycle;rue Lucie AUBRAC (prolongement);90400;DANJOUTIN;France;47.61204003603112;6.862670481204987
 Oui;Droit d’Vélo douaisis;174 place de la gare;59500;DOUAI;France;50.37212417499338;3.089644610881806
 Oui;Busabiclou;11 rue du stand de tir;59100;ROUBAIX;France;50.684543948960574;3.2113283872604375
-Oui;Véli-Vélo Limoges;88 rue des Tuilières ;87000;LIMOGES;France;45.8252;1.28073
-Oui;Recyclette;18 A rue de Moscou ;40140;SOUSTONS;France;43.74761461134689;-1.3241207599639895
+Oui;Véli-Vélo Limoges;88 rue des Tuilières;87000;LIMOGES;France;45.8252;1.28073
+Oui;Recyclette;18 A rue de Moscou;40140;SOUSTONS;France;43.74761461134689;-1.3241207599639895
 Oui;le Bocal à Vélo;2 allée de Finlande;35200;RENNES;France;48.09169233020924;-1.6527342796325686
 Oui;VELOMOTIV’;3 rue de l'Hospice;66500;PRADES;France;42.61805;2.42451
 Oui;Hors la Loire;30 route de la Bridonnière;49270;LA VARENNE;France;47.33150804544337;-1.2925779819488528
@@ -166,11 +166,11 @@ Oui;Le Petit Biclou;58 rue Damesme;75013;PARIS;France;48.82161510745615;2.355242
 Oui;Biclou;1 bis rue François Marcea;59260;HELLEMMES;France;50.63514529507524;3.115978538990021
 Oui;Mont2Roues;29 rue du Ruisseau;40000;MONT-DE-MARSAN;France;43.89022;-0.49713
 Non;Vélostation Neudorf;8 rue Frédéric;67100;STRASBOURG;France;48.56697;7.75912
-Non;Vélostation Montagne Verte;7  rue de Flexbourg ;67200;STRASBOURG;France;48.56275949729351;7.70840048789978
+Non;Vélostation Montagne Verte;7  rue de Flexbourg;67200;STRASBOURG;France;48.56275949729351;7.70840048789978
 Non;La bécane à Jules;17 rue de l’Ile;21000;DIJON;France;47.3140236;5.0299202
 Non;La bécane à Jules;29 rue Castelnau;21000;DIJON;France;47.33382034035365;5.069589614868163
 Non;Méli-Vélo;88 Rue Saint-Piat;7500;TOURNAI;Belgique;50.60400968333241;3.3942443132400513
-Non;Ateliers de la rue Voot; Rue Voot, 91à ;1200;BRUXELLES;Belgique;50.8407646;4.4354816
+Non;Ateliers de la rue Voot; Rue Voot, 91à;1200;BRUXELLES;Belgique;50.8407646;4.4354816
 Non;Roulement à Bill;Impasse Anatole;37100;TOURS;France;47.375001830600105;0.6845788657665254
 Non;Velocita;chez Scopa, terre plein de la gare;20090; AJACCIO;France;41.930113;8.739615
 Non;Vélocipaide;38 rue des Apennins;75017;PARIS;France;48.8913431;2.3227905
@@ -182,7 +182,7 @@ Non;Association EVE;Rue du Pont Lerouge;12100;MILLAU;France;44.09298302892383;3.
 Non;Guidoline;36 - 38 rue Molière;76000;ROUEN;France;49.43820351397626;1.0988473892211914
 Non;L'outil;78 Rue Saint-Nicolas;5000;NAMUR;Belgique;50.46486276115155;4.873734712600708
 Non;ViaVélo;25, rue d'Italie;6000;NICE;France;43.702615;7.263087
-Non;Atelier PharmaCycles ;rue Vezzani;83000;TOULON;France;43.123094951744285;5.931388735771178
+Non;Atelier PharmaCycles;rue Vezzani;83000;TOULON;France;43.123094951744285;5.931388735771178
 Non;Ecole Claire Ville;257 Rue du Tilleul (Evere);;BRUXELLES;Belgique;50.8709865;4.3952702
 Non;Péclôt 13;Rue de l'Industrie 7-9  ;1201;GENÈVE;Suisse;46.2103051;6.1380569
 Non;Péclôt 13;12 Pavillons;1201;GENÈVE;Suisse;46.196307;6.1397001
@@ -222,13 +222,13 @@ Non;Biciklopopravljaona;;;ZAGREB;Croatia;45.813034;15.969999
 Non;BicyCAL - UC Berkeley Bicycle Cooperative;1 MLK Student Union, Bancroft Way;94704;BERKELEY;USA;37.869721094384055;-122.25972175598143
 Non;Bicycle Kitchen;4429 Fountain Avenue;CA - 90029;LOS ANGELES;USA;34.095803;-118.28642
 Non;Bicycle Recycle Project;800 Hoover Lane;95959;NEVADA CITY;USA;39.2554762712472;-121.031230088503
-Non;Bicycle Revolution;294 Montague Rd West End ;QLD 4101;BRISBANE;Australia;-27.480561;153.005608
+Non;Bicycle Revolution;294 Montague Rd West End;QLD 4101;BRISBANE;Australia;-27.480561;153.005608
 Non;Bicycle Revolution trading as Mobility Revolution;;;BRISBANE;Australia;-27.238459;153.082754
 Non;Bike Clinic at the 14th and U street farmer's market;;;WASHINGTON;USA;38.917114;-77.032326
 Non;Bike Clinic at Bloomingdale Farmer's Market;;;WASHINGTON;USA;38.912754;-77.012428
 Non;Bike Clinic at the Glover's Park Farmer's Market;;;WASHINGTON;USA;38.915878;-77.068672
 Non;Bike Clinic at Mount Pleasant Farmer's Market;;;WASHINGTON;USA;38.932173;-77.037506
-Non;Bike Forth;1221 1/2 4th Street ;95616;DAVIS;USA;38.54742282835898;-121.73449158668518
+Non;Bike Forth;1221 1/2 4th Street;95616;DAVIS;USA;38.54742282835898;-121.73449158668518
 Non;Bike Oven;3706 North Figueroa Street;90065;LOS ANGELES;USA;34.09010680988744;-118.21207523345947
 Non;Bike Pirates;1416 Queen Street West;M6K 1L9;TORONTO;Canada;43.6410596;-79.4348365
 Non;Bikekitchen (Linz);;;LINZ;Austria;48.30694;14.28583
@@ -236,7 +236,7 @@ Non;Bikepoli;Otaniemi,  Otakaari 20;;HELSINKI;Finlande;60.18682874417763;24.8337
 Non;Bikerowave;12255 Venice Boulevard;90066;LOS ANGELES;USA;34.00463955856919;-118.43233823776244
 Non;Boise Bicycle Project;1027 South Lusk Street;83706;BOISE;USA;43.60787303637923;-116.21215581893921
 Non;Boston Square Community Bikes;1260 Kalamazoo SE;49507;GRAND RAPIDS;USA;42.940049;-85.643231
-Non;Bozeman Bike Kitchen;425 East Aspen ;;BOZEMAN;USA;45.687925;-111.03052
+Non;Bozeman Bike Kitchen;425 East Aspen;;BOZEMAN;USA;45.687925;-111.03052
 Non;Broke Spoke Community Bike Shop;501 West 6th Street;40508;LEXINGTON;USA;38.059790438477;-84.49222326278687
 Non;L'atelier mobilité;116 Rue du Tour;7301;PETIT-HORNU;Belgique;50.39697359165893;3.813951015472412
 Non;Le Cyclub;Rue de l'Amitié;69100;VILLEURBANNE;France;45.75544;4.89005
@@ -283,7 +283,7 @@ Non;Taller de Bicicletas en La Gomera;Quinquela Martin 1799;;BUENOS AIRES;Argent
 Non;SMERIG;Van Ostadestraat 233-E;1073 TN;AMSTERDAM;Netherlands;52.353278;4.898838
 Non;La Fabricicleta;En la Asamblea de Villa Urquiza, Triunvirato 4778 (y Monroe);C1099;BUENOS AIRES;Argentina;-34.57416891485484;-58.48671555519104
 Non;Association Colmar à vélo Vélodocteurs;Place de la Gare;68000;COLMAR;France;48.0730783390959;7.3473429679870605
-Non;The Bike Shed;Corner of Stewart St & Roberts St ;VIC 3057 ;BRUNSWICK EAST;Australia;-37.76646149321422;144.98463034629822
+Non;The Bike Shed;Corner of Stewart St & Roberts St;VIC 3057;BRUNSWICK EAST;Australia;-37.76646149321422;144.98463034629822
 Non;PaPa doualA;Avenue Adolphe Demeur;;BRUXELLES;Belgique;50.82544371516425;4.346745014190674
 Non;The Bike Kitchen;Hamilton House, 80 Stokes Croft;BS1 3QY;BRISTOL;UK;51.46280569840747;-2.5889647006988525
 Non;Bike Kitchen;650H Florida Street;CA 94110;SAN FRANCISCO;USA;37.760961;-122.411075
@@ -295,7 +295,7 @@ Non;Atelier vélo d’Aussillon;13 rue Blériot;81200;AUSSILLON;France;43.498281
 Non;Cycloperativa; Rue Van Artevelde 124;1000;BRUXELLES;Belgique;50.846525;4.343471
 Non;Cyclonomia;Katona Jozsest utca 39;1132;BUDAPEST;Hungary;47.514936;19.048474
 Non;Cykelköket Göteborg;Omställningsverkstad, Vegagatan 1;41311;GÖTEBORG;Sweden;57.696224;11.947843
-Non;Eco Mobil - Repair Caffe;22 B rue Sybosys;97233 ;SCHOELCHER;France;14.61515;-61.089504
+Non;Eco Mobil - Repair Caffe;22 B rue Sybosys;97233;SCHOELCHER;France;14.61515;-61.089504
 Non;RepEyre;3 rue Théophile Gautier ZA Sylva 21;33830;BELIN-BELIET;France;44.52683615019252;-0.8176177740097047
 Non; Cycle Re-cycle Club [ a.k.a. The Nunnery Bike Workshop ];Cnr of Philip and Cope street in car park;2017;SYDNEY;Australia;-33.895853447818865;151.20045661926267
 Non;Les Déraillées;;38600;FONTAINE;France;45.18857028178351;5.692634582519531
@@ -329,7 +329,7 @@ Non;PYÖRÄPAJA;Pasilan Puistotie 12;240;HELSINKI;Finlande;60.20089826158768;24.
 Non;Cycles et recycle;33 rue de Chartres;78610;LE PERRAY-EN-YVELINES;France;48.68744324636713;1.8501394987106325
 Non;Atelier Recyclette;Rue Sainte-Léonie;75014;PARIS;France;48.83345637917427;2.3196762800216675
 Non;Répar'Vélos;Garage 803, résidences Jean Moulin, rue Jean Moulin;34800;CLERMONT-L'HÉRAULT;France;43.63220036534597;3.436295986175537
-Non;La maison non marchande de Puivert ;31 rue du barry du lion;11230;PUIVERT;France;42.91965568165484;2.0477378368377686
+Non;La maison non marchande de Puivert;31 rue du barry du lion;11230;PUIVERT;France;42.91965568165484;2.0477378368377686
 Non;A Prends ton vélo;11 rue Jean Perrin;92230;GENNEVILLIERS;France;48.9347699;2.2907388
 Non;Collectif Vélo Diois;2, rue des quatre cantons;26150;DIE;France;44.7543423;5.3687544
 Non;Trégor Bicyclette;60, route de Pors An Nay;22300;LANNION;France;48.767136793162116;-3.4737396240234375
@@ -349,7 +349,7 @@ Non;Bike Station;11 Joaquin Jose Landazuri kalea;1012;VITORIA-GASTEIZ;España;42
 Non;Free Cycles;732 South 1st Street West;59801;MISSOULA;USA;46.86903037691496;-114.00772869586945
 Non;PROVELO LAUSANNE;Place de l'Europe;1003;LAUSANNE;Suisse;46.52034809079675;6.631211936473846
 Non;Broken Spoke Bike Co-op;42 Pembroke Street;OX1 1BP;OXFORD;UK;51.7508394806285;-1.2578487396240234
-Non;Espace Créateur de Solidarités;Immeuble Ecran, 5 allée du Merle Rouge ;69190;SAINT-FONS;France;45.7112287;4.862717999999973
+Non;Espace Créateur de Solidarités;Immeuble Ecran, 5 allée du Merle Rouge;69190;SAINT-FONS;France;45.7112287;4.862717999999973
 Non;L’Atelier solidaire;45 Rue Albert Thomas;38100;GRENOBLE;France;45.1690402;5.7027683
 Non;L'atelier-vélo du 38;38 Rue d'Alembert;38100;GRENOBLE;France;45.1879628;5.710985
 Non;Bourg Nature Environnement;17 Rue André Boulle;1440;VIRIAT;France;46.21552816976048;5.217078924179077
@@ -365,7 +365,7 @@ Non;Saintes à Vélo;8 Rue Port Larousselle;17100;SAINTES;France;45.751541684377
 Non;La Roue Fédère;1 ter avenue Philibert Delpra;46100;FIGEAC;France;44.6104660920631;2.027106285095215
 Non;Wivenhoe Bike Kitchen;St John's Road;CO7 9DR;WIVENHOE;UK;51.854263500954374;0.9610676765441893
 Non;BACK2Bikes;525 Williamstown Road;VIC 3207;PORT MELBOURNE;Australia;-37.831938577829035;144.94056701660156
-Non;Cycle Saloon;Van Ness Ave ;VIC 3032;MARIBYRNONG;Australia;-37.7755978;144.8959864
+Non;Cycle Saloon;Van Ness Ave;VIC 3032;MARIBYRNONG;Australia;-37.7755978;144.8959864
 Non;Wrenchworthy Bicycle Shed;659 Plenty Road;VIC 3073;RESERVOIR;Australia;-37.7310139271401;145.01431703567505
 Non;Second Chance Cycles;Harmsworth Street;VIC 3066;COLLINGWOOD;Australia;-37.8005248;144.9908738
 Non;Adelaide Bike Kitchen;22 Gibson Street;SA 5007;BOWDEN;Australia;-34.905651126369456;138.57717096805573
@@ -447,7 +447,7 @@ Non;Cicloficina na UA;;3810-187;AVEIRO;Portugal;40.63070255093919;-8.65895390510
 Non;Cicloficina do primeiro Domingo do mês;Avenida Bento Gonçalves 1;2830;BARREIRO;Portugal;38.663093593819866;-9.0836763381958
 Non;Coimbr’a’Pedal;;3030-476;COIMBRA;Portugal;40.20204774438762;-8.425698280334473
 Non;Oficina Comunitária;Rua João Chagas;2795;LINDA-A-VELHA;Portugal;38.707589878252435;-9.240628480911255
-Non;Fontenay vélo;9 /11 rue pierre Dulac (sous le gymnase ) ;94120;FONTENAY-SOUS-BOIS;France;48.8492803958;2.4713820219
+Non;Fontenay vélo;9 /11 rue pierre Dulac (sous le gymnase );94120;FONTENAY-SOUS-BOIS;France;48.8492803958;2.4713820219
 Non;Brico 2 roues;3 Rue du Docteur Albert Calmette;44600;SAINT-NAZAIRE;France;47.2756294;-2.2386229
 Non;60B;60 Rue de la Bottière;44000;NANTES;France;47.23919141472725;-1.5200480818748474
 Non;Atelier Vélo Solidaire des Viennes;52 Rue Paul Doumer;10300;SAINTE-SAVINE;France;48.29003850025547;4.052903652191162
@@ -530,7 +530,7 @@ Non;Community Bikes;4019 Sebastopol Road;95407;SANTA ROSA;USA;38.4249959837051;-
 Non;Ventura Bike HUB;1150 North Ventura Avenue;93001;VENTURA;USA;34.29372434656265;-119.2969000339508
 Non;Watsonville Bike Shak Cooperative;555 Main Street;95076;WATSONVILLE;USA;36.912686662813556;-121.760036945343
 Non;Park Hill Bikes Together;2825 Fairfax Street;80207;DENVER;USA;39.757252741336735;-104.92849946022034
-Non;Mariposa Bikes Together ;1060 Osage Street;80204;DENVER;USA;39.7330604070662;-105.005165682635
+Non;Mariposa Bikes Together;1060 Osage Street;80204;DENVER;USA;39.7330604070662;-105.005165682635
 Non;UMC Bike Station;207 UCB, UMC 355;80302;BOULDER;USA;40.00678922583445;-105.27212262153624
 Non;Folsom Bike Station;1111 Engineering Drive;80309;BOULDER;USA;40.00655871197857;-105.26401162147522
 Non;Meadows Park Bike Library;1943 South El Paso Avenue;80905;COLORADO SPRINGS;USA;38.8030065;-104.810752462857
@@ -624,7 +624,7 @@ Non;Le Joli Mai;39 rue Anselme;93400;SAINT-OUEN;France;48.90947325230021;2.33553
 Non;Garavélo;Les Tracols;26190;SAINT-LAURENT-EN-ROYANS;France;45.026832918681606;5.3282430768013
 Non;Maison du Vélo et Modes Doux Saint Priest;40 rue Henri Maréchal;69800;SAINT-PRIEST;France;45.693125435352414;4.940370172262193
 Non;Le Biclou d'Alino;8c rue de la grange Saint Pierre;71850;CHARNAY-LES-MACON;France;46.31027039650412;4.8147422075271615
-Non;Le Biclou d’Alino;ZA de Chassigneux;71520 ;DOMPIERRE-LES-ORMES;France;46.36018275859137;4.468286633491517
+Non;Le Biclou d’Alino;ZA de Chassigneux;71520;DOMPIERRE-LES-ORMES;France;46.36018275859137;4.468286633491517
 Non;La Roue Libre de Thau;6 rue Pierre Semard;34200;SÈTE;France;43.4037067930469;3.699882030487061
 Non;Au Comptoir du Chinabulle;Rue d'Inkerman (au fond de l'impasse);81600;GAILLAC;France;43.898956353525634;1.899962424358819
 Non;Dos d’Ane;7 Avenue Georges Clémenceau;41100;VENDÔME;France;47.799063316408514;1.0659500956535342
@@ -657,7 +657,7 @@ Non;La Rayonneuse;Recyclerie Change de Cap, 13 rue des Réservoirs;7200;AUBENAS;
 Non;Répar'Vélo;7 Impasse Edouard Branly;92220;BAGNEUX;France;48.788311121748386;2.309736013412476
 Non;Ça Roule;;37000;TOURS;France;47.3938499;0.6765604
 Non;SET - Atelier Vélo;Fort de Sucy;94370;SUCY-EN-BRIE;France;48.7691593;2.530291
-Non;Véli-Vélo;;44110 ;CHÂTEAUBRIANT;France;47.72498266384849;-1.37017697095871
+Non;Véli-Vélo;;44110;CHÂTEAUBRIANT;France;47.72498266384849;-1.37017697095871
 Non;Aux Pignons sur Rue;;93130;NOISY-LE-SEC;France;48.8946948;2.4610758
 Non;Mâcon Vélo en Ville;67, avenue Edouard Herriot;71000;MÂCON;France;46.2952;4.8211
 Non;Cork Community Bikes;Cork Foyer, Assumption Road, Blackpool;T23 FDT4;CORK;Ireland;51.910523;-8.471954
@@ -665,12 +665,12 @@ Non;Bike For Good;65 Haugh Road;G3 8TX;GLASGOW;UK;55.86541105368166;-4.290263056
 Non;Bike For Good;509 Victoria Road;G42 8BH;GLASGOW;UK;55.834400093867536;-4.265299737453462
 Non;Pignons Solidaire - Familles actives au centre social;1 boulevard de Groslay;35300;FOUGÈRES;France;48.362964368459025;-1.1848175525665285
 Non;atelier Janus du lycée Sembat-Seguin;20 boulevard Marcel Sembat;69200;VÉNISSIEUX;France;45.716360468366766;4.880617260932923
-Non;atelier Janus d'Oullins;33 avenue Jean Jaurès;69600;OULLINS;France ;45.71652492657085;4.818980097770692
+Non;atelier Janus d'Oullins;33 avenue Jean Jaurès;69600;OULLINS;France;45.71652492657085;4.818980097770692
 Non;atelier Janus de Coblod;47 boulevard du Docteur Coblod;69200;VÉNISSIEUX;France;45.700717091747975;4.892579913139344
 Non;Asheville ReCyclery;90 Biltmore Avenue;NC 28801;ASHEVILLE;USA;35.59173;-82.55036
 Non;Durham Bike Co-op;1612 Acadia Street;NC 27701;DURHAM;USA;36.01526;-78.89371
 Non;The ReCYCLEry NC;108 North Graham Street;27516;CHAPEL HILL;USA;35.91068;-79.0643
-Non;Recicleta;Metro Rondizzoni ;;SANTIAGO DE CHILE;Chile;-33.4698;-70.6526
+Non;Recicleta;Metro Rondizzoni;;SANTIAGO DE CHILE;Chile;-33.4698;-70.6526
 Non;Bicicletería Austral;Casa de la Federacion de Estudiantes FEUACh;;VALDIVIA;Chile;-39.80776206670418;-73.24692249298097
 Non;Atelier Vélo Participatif de Brunoy;rue Hameau de Lachambaudie;91200;BRUNOY;France;48.696845;2.507087
 Non;Les voies d’la fourche;Les Temples;58300;CHAMPVERT;France;46.84413706877846;3.5216116905212407
@@ -680,7 +680,7 @@ Non;Petite Reine de l’Est Bisontin;24 rue des Roses;25000;BESANÇON;France;47.
 Non;La Déraillée;;55130;LUMÉVILLE-EN-ORNOIS;France;48.4719690781425;5.416812658222626
 Non;Des Chaînes Ton Biclou;;35400;SAINT-MALO;France;48.64718916071875;-2.007200717980595
 Non;Oberlin Bike Co-op;154 North Main Street;44074;OBERLIN;USA;41.29588068800532;-82.21797287464143
-Non;Mobo Bicycle Coop;1415 Knowlton Street;45223 ;CINCINNATI;USA;39.161183379397606;-84.53462898731232
+Non;Mobo Bicycle Coop;1415 Knowlton Street;45223;CINCINNATI;USA;39.161183379397606;-84.53462898731232
 Non;Third Hand;979 East 5th Avenue;43201;COLUMBUS;USA;39.985948685309324;-82.98083066940309
 Non;"Toledo Bikes&nbsp;!";1114 Washington Street;43604;TOLEDO;USA;41.65108471392292;-83.54514598846437
 Non;Franklinton Cycle Works;897 West Broad Street;43222;COLUMBUS;USA;39.95912007090542;-83.02457213401796
@@ -718,8 +718,8 @@ Non;Cyclolîle;le Pavillon en Chantier, 2 quai de l'Aéroplane;93450;L'ÎLE-SAIN
 Non;Vélo Solidaire;45 montée Julia Bartet;84100;ORANGE;France;44.13554642133777;4.809721112251283
 Non;La Roue Vivegnis;rue Vivegnis;4000;LIÈGE;Belgique;50.65297057627307;5.592204630374909
 Non;#Tandem;via Romana 43;7026;OLBIA;Italia;40.92183062588226;9.495953857931456
-Non;Vélo à Saint-Go;Maison de l’avenir, Espace Jeunesse MJC, 1 Boulevard Charles De Gaulle ;31800;SAINT-GAUDENS;France;43.1085138;0.7206694
-Non;Tandem;6 rue de la Blanchardière;49300;CHOLET;France ;47.069002434047746;-0.8432972431182862
+Non;Vélo à Saint-Go;Maison de l’avenir, Espace Jeunesse MJC, 1 Boulevard Charles De Gaulle;31800;SAINT-GAUDENS;France;43.1085138;0.7206694
+Non;Tandem;6 rue de la Blanchardière;49300;CHOLET;France;47.069002434047746;-0.8432972431182862
 Non;Maison du Vélo;91 Rue du Chauffour;59300;VALENCIENNES;France;50.369626159502346;3.5185486078262334
 Non;RosnyCyclettes - ateliers mobiles;;93110;ROSNY-SOUS-BOIS;France;48.87114013841295;2.487019300460816
 Non;BricoVélo;4 Rue Beausoleil;44640;LE PELLERIN;France;47.20222023694735;-1.7555031180381777
