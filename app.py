@@ -1,11 +1,9 @@
 # -*- coding: utf-8 -*
+#!/usr/bin/python3
 
 import time
 import pywikibot
 from pywikibot import pagegenerators
-site = pywikibot.Site("wikidata", "wikidata")
-repo = site.data_repository()
-
 import csv, sys
 
 '''
@@ -23,9 +21,14 @@ for q in gen:
 
 def create_wd_item(site, label_dict):
     new_item = pywikibot.ItemPage(site)
+    print("create_wd_item")
+    print(new_item)
     new_item.editLabels(labels=label_dict, summary=u"Create new element")
     return new_item.getID()
 
+
+site = pywikibot.Site("wikidata", "wikidata")
+repo = site.data_repository()
 
 with open('liste.csv') as csv_file:
     reader = csv.reader(csv_file, delimiter=';')
@@ -34,7 +37,7 @@ with open('liste.csv') as csv_file:
 
     for row in reader:
 
-        if line_count > 94:
+        if line_count > 104:
 
             isHeureux = False
             if row[0] == 'Oui':
@@ -90,20 +93,32 @@ with open('liste.csv') as csv_file:
             desc = { u'fr': description }
             item.editDescriptions(desc, summary=u'Set description')
 
+            item = pywikibot.ItemPage(repo, new_item_id)
+            item.get()
+
             claim = pywikibot.Claim(repo, u'P17')
             target = pywikibot.ItemPage(repo, country)
             claim.setTarget(target)
             item.addClaim(claim, summary=u'Country')
+
+            item = pywikibot.ItemPage(repo, new_item_id)
+            item.get()
 
             claim = pywikibot.Claim(repo, u'P131')
             target = pywikibot.ItemPage(repo, city)
             claim.setTarget(target)
             item.addClaim(claim, summary=u'Location')
 
+            item = pywikibot.ItemPage(repo, new_item_id)
+            item.get()
+
             claim = pywikibot.Claim(repo, u'P31')
             target = pywikibot.ItemPage(repo, 'Q96983545')
             claim.setTarget(target)
             item.addClaim(claim, summary=u'Nature')
+
+            item = pywikibot.ItemPage(repo, new_item_id)
+            item.get()
 
             latI = float(latitude)
             lonI = float(longitude)
@@ -113,16 +128,25 @@ with open('liste.csv') as csv_file:
             coordinateclaim.setTarget(coordinate)
             item.addClaim(coordinateclaim, summary=u'Coordinates')
 
+            item = pywikibot.ItemPage(repo, new_item_id)
+            item.get()
+
+            if postalcode != '':
+                claim = pywikibot.Claim(repo, u'P281')
+                claim.setTarget(postalcode)
+                item.addClaim(claim, summary=u'Postal Code')
+
+            item = pywikibot.ItemPage(repo, new_item_id)
+            item.get()
+
             if isHeureux == True:
                 claim = pywikibot.Claim(repo, u'P463')
                 target = pywikibot.ItemPage(repo, 'Q16651108') # Heureux Cyclage
                 claim.setTarget(target)
                 item.addClaim(claim, summary=u'Heureux Cyclage')
 
-            if postalcode != '':
-                claim = pywikibot.Claim(repo, u'P281')
-                claim.setTarget(postalcode)
-                item.addClaim(claim, summary=u'Postal Code')
+            item = pywikibot.ItemPage(repo, new_item_id)
+            item.get()
 
             if address != '':
                 claim = pywikibot.Claim(repo, u'P6375')
@@ -131,8 +155,8 @@ with open('liste.csv') as csv_file:
                 item.addClaim(claim, summary=u'Address')
 
             if line_count % 5 == 0:
-                print("# Pause 120 seconds")
-                time.sleep(120)
+                print("# Pause 60 seconds")
+                time.sleep(60)
 
         line_count += 1
         print(line_count)
