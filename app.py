@@ -30,9 +30,11 @@ def create_wd_item(site, label_dict):
 with open('liste.csv') as csv_file:
     reader = csv.reader(csv_file, delimiter=';')
     line_count = 0
+    print("********")
+
     for row in reader:
 
-        if line_count > 64:
+        if line_count > 94:
 
             isHeureux = False
             if row[0] == 'Oui':
@@ -84,6 +86,20 @@ with open('liste.csv') as csv_file:
             item = pywikibot.ItemPage(repo, new_item_id)
             item.get()
 
+            description = 'atelier de réparation de cycles à ' + cityprint + ', ' + countryprint
+            desc = { u'fr': description }
+            item.editDescriptions(desc, summary=u'Set description')
+
+            claim = pywikibot.Claim(repo, u'P17')
+            target = pywikibot.ItemPage(repo, country)
+            claim.setTarget(target)
+            item.addClaim(claim, summary=u'Country')
+
+            claim = pywikibot.Claim(repo, u'P131')
+            target = pywikibot.ItemPage(repo, city)
+            claim.setTarget(target)
+            item.addClaim(claim, summary=u'Location')
+
             claim = pywikibot.Claim(repo, u'P31')
             target = pywikibot.ItemPage(repo, 'Q96983545')
             claim.setTarget(target)
@@ -97,25 +113,11 @@ with open('liste.csv') as csv_file:
             coordinateclaim.setTarget(coordinate)
             item.addClaim(coordinateclaim, summary=u'Coordinates')
 
-            claim = pywikibot.Claim(repo, u'P17')
-            target = pywikibot.ItemPage(repo, country)
-            claim.setTarget(target)
-            item.addClaim(claim, summary=u'Country')
-
-            claim = pywikibot.Claim(repo, u'P131')
-            target = pywikibot.ItemPage(repo, city)
-            claim.setTarget(target)
-            item.addClaim(claim, summary=u'Location')
-
-            description = 'atelier de réparation de cycles à ' + cityprint + ', ' + countryprint
-            desc = { u'fr': description }
-            item.editDescriptions(desc, summary=u'Set description')
-
             if isHeureux == True:
-                    claim = pywikibot.Claim(repo, u'P463')
-                    target = pywikibot.ItemPage(repo, 'Q16651108') # Heureux Cyclage
-                    claim.setTarget(target)
-                    item.addClaim(claim, summary=u'Heureux Cyclage')
+                claim = pywikibot.Claim(repo, u'P463')
+                target = pywikibot.ItemPage(repo, 'Q16651108') # Heureux Cyclage
+                claim.setTarget(target)
+                item.addClaim(claim, summary=u'Heureux Cyclage')
 
             if postalcode != '':
                 claim = pywikibot.Claim(repo, u'P281')
@@ -129,8 +131,8 @@ with open('liste.csv') as csv_file:
                 item.addClaim(claim, summary=u'Address')
 
             if line_count % 5 == 0:
-                print("# Pause 240 seconds")
-                time.sleep(240)
+                print("# Pause 120 seconds")
+                time.sleep(120)
 
         line_count += 1
         print(line_count)
